@@ -10,8 +10,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 public class Scenario5 {
-	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "./softwares/chromedriver.exe");
+	Static{
+	System.setProperty("webdriver.chrome.driver", "./softwares/chromedriver.exe");
+	}
+	@Test
+	public static void Scn5() throws InterruptedException {
+		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize(); // to maximize the tab
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
