@@ -7,9 +7,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class Scenario2 {
-	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "./Softwares/chromedriver.exe");
+	Static{
+System.setProperty("webdriver.chrome.driver", "./Softwares/chromedriver.exe");
+}
+	@Test
+	public static void Scn2() throws InterruptedException {
+		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https:www.gmail.com");
 		driver.manage().window().maximize();
