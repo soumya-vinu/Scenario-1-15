@@ -13,7 +13,8 @@ public class Scenario1 {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./softwares/chromedriver.exe");
 	}
-	public static void main(String[] args) {
+	@Test
+	public static void Scn1() {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
