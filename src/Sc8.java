@@ -12,8 +12,8 @@ public class Sc8 {
 	static {
 		System.setProperty("webdriver.chrome.driver", "./softwares/chromedriver.exe");
 	}
-
-	public static void main(String[] args) throws InterruptedException, AWTException
+@Test
+	public static void Scenario8 ()throws InterruptedException, AWTException
 
 	{
 
